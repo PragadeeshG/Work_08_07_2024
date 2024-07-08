@@ -1,0 +1,16 @@
+create table if not exists repository_pushes(
+commit_id Integer not null,
+secrets_scan varchar(255) null,
+code_scan varchar(255) null,
+prog_options varchar(255) null,
+program_action varchar(255) null,
+program_desc char null,
+options char null,
+vm_options char null,
+commanders varchar(255) null,
+requires varchar(255) null,
+process_id Integer null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint repository_pushes_pk primary key(commit_id));

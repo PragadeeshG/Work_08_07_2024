@@ -1,0 +1,16 @@
+create table if not exists commit_advanced_security(
+id Integer not null,
+dependency_manager varchar(255) null,
+dependency_scan varchar(255) null,
+dev_ops_server varchar(255) null,
+domain_url Integer null,
+code_qibundler char null,
+org_settions char null,
+active_committers varchar(255) null,
+dev_mode varchar(255) null,
+pipeline_mode varchar(255) null,
+push_protections varchar(255) null,
+src_files varchar(255) null,
+src_files_tolgnore varchar(255) null,
+entity_state varchar(255) null,
+constraint commit_advanced_security_pk primary key(id));
